@@ -8,12 +8,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="BackendOwoce" />
+        <module name="OwoceBackend" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="BackendOwoce" options="-parameters" />
+      <module name="OwoceBackend" options="-parameters" />
     </option>
   </component>
 </project>
