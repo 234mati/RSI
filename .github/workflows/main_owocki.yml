@@ -50,4 +50,4 @@ jobs:
           app-name: 'owocki'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FAB995AEBBE643F397887FFCF93EC8B2 }}
-          package: '*.war'
+          package: '*.jar'
