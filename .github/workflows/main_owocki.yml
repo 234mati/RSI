@@ -10,9 +10,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  
   build:
-    
     runs-on: windows-latest
 
     steps:
@@ -40,13 +38,10 @@ jobs:
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
 
     steps:
-
       - name: Download artifact from build job
-
         uses: actions/download-artifact@v2
         with:
           name: java-app
-          path: '${{ github.workspace }}/target/*.war'
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
