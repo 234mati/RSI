@@ -1,0 +1,17 @@
+com\rsi\backendowoce\domain\FruitAppInfoDTO.class
+com\rsi\backendowoce\exceptions\FruitNotFoundException.class
+com\rsi\backendowoce\exceptions\ApiException.class
+com\rsi\backendowoce\exceptions\ApiExceptionHandler.class
+com\rsi\backendowoce\domain\FruitDTO.class
+com\rsi\backendowoce\config\SimpleCORSFilter.class
+com\rsi\backendowoce\domain\Fruit$FruitBuilder.class
+com\rsi\backendowoce\services\IFruitService.class
+com\rsi\backendowoce\BackendOwoceApplication.class
+com\rsi\backendowoce\domain\Fruit.class
+com\rsi\backendowoce\exceptions\FruitAlreadyExistsException.class
+com\rsi\backendowoce\exceptions\NonPositiveWeightException.class
+com\rsi\backendowoce\exceptions\NonPositivePriceException.class
+com\rsi\backendowoce\repositories\FruitRepository.class
+com\rsi\backendowoce\services\FruitService.class
+com\rsi\backendowoce\exceptions\ApiException$ApiExceptionBuilder.class
+com\rsi\backendowoce\controllers\FruitController.class
